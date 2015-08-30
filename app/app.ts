@@ -1,8 +1,8 @@
-import { stores } from './store/index';
+import { states } from './state/index';
 import { redButtonClick, blueButtonClick, clearClick } from './actions/index';
 
 // Listen to all store updates and render
-stores.subscribe(render);
+states.subscribe(render);
 
 function render(state) {
     console.log('Rendering, ', state);

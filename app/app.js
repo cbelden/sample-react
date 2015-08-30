@@ -1,6 +1,6 @@
-var index_1 = require('./store/index');
+var index_1 = require('./state/index');
 var index_2 = require('./actions/index');
-index_1.stores.subscribe(render);
+index_1.states.subscribe(render);
 function render(state) {
     console.log('Rendering, ', state);
 }

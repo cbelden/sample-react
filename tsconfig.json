@@ -25,7 +25,7 @@
         "./app/actions/index.ts",
         "./app/app.ts",
         "./app/reducers/index.ts",
-        "./app/store/index.ts",
+        "./app/state/index.ts",
         "./typings/lodash/lodash.d.ts",
         "./typings/rx/rx-lite.d.ts",
         "./typings/rx/rx.d.ts"

@@ -4,4 +4,4 @@ var DEFAULT_STATE = {
     redClicks: 0,
     blueClicks: 0
 };
-exports.stores = index_1.actions.scan(index_2.reduce, DEFAULT_STATE);
+exports.states = index_1.actions.scan(index_2.reduce, DEFAULT_STATE);

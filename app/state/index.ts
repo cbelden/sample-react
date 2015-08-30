@@ -9,4 +9,4 @@ const DEFAULT_STATE = {
 };
 
 
-export const stores = actions.scan(reduce, DEFAULT_STATE);
+export const states = actions.scan(reduce, DEFAULT_STATE);
